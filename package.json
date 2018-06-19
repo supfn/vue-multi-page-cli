@@ -1,6 +1,6 @@
 {
   "name": "@supfn/vue-multi-page-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue多页构建脚手架工具",
   "bin": {
     "vue-multi-page-cli": "src/index.js"
@@ -28,5 +28,9 @@
     "log-symbols": "^2.2.0",
     "ora": "^2.1.0"
   },
-  "keywords": ["vue", "cli", "multi"]
+  "keywords": [
+    "vue",
+    "cli",
+    "multi"
+  ]
 }
