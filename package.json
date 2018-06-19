@@ -1,0 +1,31 @@
+{
+  "name": "vue-multi-page-cli",
+  "version": "1.0.0",
+  "description": "vue多页构建脚手架工具",
+  "bin": {
+    "vue-multi-page-cli": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supfn/vue-multi-page-cli.git"
+  },
+  "author": "peakleo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supfn/vue-multi-page-cli/issues"
+  },
+  "homepage": "https://github.com/supfn/vue-multi-page-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^2.1.0"
+  }
+}
