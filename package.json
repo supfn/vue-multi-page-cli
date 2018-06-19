@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/supfn/vue-multi-page-cli.git"
   },
-  "author": "peakleo",
-  "license": "ISC",
+  "author": "supfn",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/supfn/vue-multi-page-cli/issues"
   },
@@ -27,5 +27,6 @@
     "inquirer": "^6.0.0",
     "log-symbols": "^2.2.0",
     "ora": "^2.1.0"
-  }
+  },
+  "keywords": ["vue", "cli", "multi"]
 }
