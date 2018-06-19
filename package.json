@@ -1,5 +1,5 @@
 {
-  "name": "vue-multi-page-cli",
+  "name": "@supfn/vue-multi-page-cli",
   "version": "1.0.0",
   "description": "vue多页构建脚手架工具",
   "bin": {
