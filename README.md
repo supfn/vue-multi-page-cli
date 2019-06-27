@@ -1,15 +1,15 @@
 # vue-multi-page-cli
 
-A simple CLI for scaffolding Vue.js multiple page projects.
+A simple CLI for scaffolding Vue.js multiple page project
 
-### Installation
+## Installation
 
 ```shell
 $ npm install -g @supfn/vue-multi-page-cli
 ```
 
 
-### Usage
+## Usage
 
 ```shell
 $ vue-multi-page-cli init <project-name>

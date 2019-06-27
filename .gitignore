@@ -66,4 +66,4 @@ typings/
 .env
 
 # custom
-
+.DS_Store

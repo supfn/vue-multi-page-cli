@@ -17,14 +17,14 @@ program.version(packageJson.version, '-v, --version')
       inquirer.prompt([
         {
           name: 'description',
-          message: '请输入项目描述'
+          message: 'Enter a project description'
         },
         {
           name: 'author',
-          message: '请输入作者名称'
+          message: 'Enter author name'
         }
       ]).then((answers) => {
-        const spinner = ora('正在下载模板...');
+        const spinner = ora('download ...');
         spinner.start();
         download('github:supfn/vue-multi-page-template#master', name, {clone: true}, (err) => {
           if(err){
@@ -43,13 +43,12 @@ program.version(packageJson.version, '-v, --version')
               const result = handlebars.compile(content)(meta);
               fs.writeFileSync(fileName, result);
             }
-            console.log(symbols.success, chalk.green('项目初始化完成'));
+            console.log(symbols.success, chalk.green('Project initialization is complete'));
           }
         })
       })
     }else{
-      // 错误提示项目已存在，避免覆盖原有项目
-      console.log(symbols.error, chalk.red('项目已存在'));
+      console.log(symbols.error, chalk.red(`'${name}' already exists`));
     }
   });
 program.parse(process.argv);
